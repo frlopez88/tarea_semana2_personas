@@ -1,7 +1,7 @@
 import pg from 'pg-promise'
 const pgp = pg();
 
-const cnstr = `postgresql://postgres:P@quito951@localhost:5432/postgres`;
+const cnstr = `postgresql://postgres:Hola12@localhost:5432/postgres`;
 const db = pgp(cnstr);
 
 db.connect()

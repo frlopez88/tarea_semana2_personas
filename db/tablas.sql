@@ -1,4 +1,4 @@
--- Active: 1705978756250@@127.0.0.1@5432@postgres
+-- Active: 1698945600332@@127.0.0.1@5432@postgres
 
 create table tbl_animal 
 (
@@ -6,6 +6,8 @@ create table tbl_animal
     nombre varchar(250), 
     sonido varchar(20)
 );
+
+drop table tbl_personas;
 
 create table tbl_personas
 (
